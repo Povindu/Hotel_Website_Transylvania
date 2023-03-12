@@ -1,10 +1,6 @@
-
-/* :root{
-    --dark: #2C3333;
-    --dark2: #2E4F4F;
-    --light: #0E8388;
-    --light2:#9eead7;
-} */
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 :root{
     --dark: #2B3467;
     --light2: #2F58CD;
@@ -12,19 +8,13 @@
     --dark2:#bc73e3;
 }
 body{
-    /* height: 2000px; */
     margin: 0%;
     overflow-x:hidden;
-    /* overflow-y: hidden; */
-    /* background-color: var(--light2); */
-    /* background-image: linear-gradient(to bottom,var(--light),var(--light2)); */
     background-repeat: no-repeat;
 }
 
 .top{
     padding-top: 10px;
-    /* background-image: linear-gradient(to bottom left,var(--light),var(--dark)); */
-    /* opacity: 0.9; */
 }
 
 *{
@@ -42,17 +32,14 @@ body{
     padding: 0%;
     list-style: none;
     padding-left: 5vw;
-    /* padding-right: 4vw; */
 }
 
 .nav-li{
     box-shadow: #0000005c 2px 2px 5px;
-    /* border-radius: 5px; */
     margin-left: 1vw;
     margin-right: 1vw;
     background-image: linear-gradient(to left bottom,var(--light),var(--light2));
-    /* background-color:var(--light); */
-    /* opacity: 0.8; */
+    
     width: 20vw;
     height: 5vh;
     display: inline-block;
@@ -93,13 +80,10 @@ body{
     position:fixed;
     bottom: 0%;
     margin: 0%;
-    /* position: absolute; */
-    /* bottom: 0%; */
-    /* left:0px; */
     width: 100%;
     height: 60px;
-    background-color:var(--dark);
-    /* text-align: center; */
+    background-image: linear-gradient(to left bottom,var(--light2),var(--light));
+    
 }
 
 .footer img{
@@ -111,7 +95,6 @@ body{
 .footer p{
     color: #CBE4DE;
     margin-left: 30px;
-    /* font-size: small; */
     margin-top: 25px;
     float: left;
     height: 30px;
@@ -139,7 +122,3 @@ body{
     background-repeat: no-repeat;
     background-image: url('insta.webp');
 }
-/* 
-.social{
-    margin-left: 60%;
-} */

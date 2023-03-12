@@ -3,7 +3,6 @@ body{
     background-image: url(homemid4.jpg);
     background-size: cover;
     height: fit-content;
-    /* background-image: linear-gradient(to bottom left,var(--light),var(--light2)); */
 }
 
 .body{
@@ -18,25 +17,17 @@ body{
     height: 40vh;
     width: 80vw;
     margin: auto;
-    /* border: 2px solid black; */
     border-radius: 30px;
-    /* margin-top: 1vh; */
     margin-bottom: 2vh;
     box-shadow: rgba(47, 47, 47, 0.518) 2px 2px 5px;
-    /* background-image: linear-gradient(to bottom,var(--light),var(--light2)); */
     text-align: center;
     overflow: hidden;
 }
 
 .conimg img{
-    /* opacity: 0.8; */
     border-radius: 30px;
-    /* z-index: -2; */
-    /* positon: absolute; */
-    /* left: 0%; */
     width: 30vw;
     height:40vh;
-    /* float: right; */
 }
 
 .conleft{
@@ -72,7 +63,6 @@ body{
 }
 
 .text a{
-    /* text-decoration: none; */
     color: aliceblue;
     font-size: 3vh;
     text-decoration: solid;

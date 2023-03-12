@@ -1,37 +1,19 @@
-body{
-    /* background-image: url(homemid4.jpg); */
-    /* background-repeat:repeat-y; */
 
-    /* background-image: linear-gradient(to bottom left,var(--light),var(--light2)); */
-}
 .top{
-    /* background-image: linear-gradient(to bottom left,var(--light),var(--light2)); */
-    
     z-index: 5;
     padding-bottom: 3vh;
     background-image: linear-gradient(to top, rgba(255,255,255,0), var(--light2)) !important;
 }
 
-.nav-li{
-    /* background-image: linear-gradient(to top, rgba(255, 255, 255, 0.153), rgba(255, 255, 255, 0.301)) !important; */
-    
-    /* box-shadow: #00000077 2px 2px 5px !important; */
-}
 .body{
-    /* transform: translateY(-120px); */
     z-index: -1;
 }
 .con img{
     width: 100vw;
     height: 80vh;
-    /* height: 100vh; */   
-    /* height: 0vh; */
-    /* opacity:0.8; */
     margin: 0%;
     z-index: 0;
     position: relative;
-    /* position: absolute; */
-    /* transform: translateY(-8vh); */
 }
 
 .con:hover{
@@ -49,13 +31,10 @@ body{
 }
 
 .con{
-    /* border-radius: 20px; */
     width: 60vw;
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 50vh; */
-    /* overflow: hidden; */
 }
 .con:nth-child(1){
     background-image: url(ballroom.jpg);
@@ -78,7 +57,6 @@ body{
 
 .con:nth-child(odd){
     float: left;
-    /* border: white 5px solid; */
 }
 .con:nth-child(even){
     float: left;
@@ -90,30 +68,14 @@ body{
 .con:nth-child(4n){
     width: 40vw;
 }
-/* .con:nth-child(3n-2){
-    width: 40vw;
-} */
 
 
 .contain{
     position:absolute;
     z-index: -5;
     top: 0%;
-
-    /* padding-left: 10vw; */
     width: 100vw;
 }
-
-/* .con1{
-    background-image: url(ballroom.jpg);
-} */
-/* 
-.con2{
-    background-image: url(pool.jpg);
-}
-.con3{
-    background-image: url(resturant.jpg);
-} */
 
 
     

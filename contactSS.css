@@ -2,19 +2,13 @@ body{
     
     background-image: url(homemid5.jpg);
     background-size: cover;
-    /* height: fit-content; */
     overflow-y: hidden;
     height: 100vh;
-    /* background: url(hotel1.jpg); */
-    /* background-image: linear-gradient(to bottom left,var(--light),var(--light2)); */
-    /* background-image: linear-gradient(to bottom left,var(--light),var(--light2)); */
-    
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
 }
 .top{
-    
     background-image: linear-gradient(to top, rgba(255,255,255,0), var(--light2)) !important;
 }
 .body{
@@ -27,8 +21,7 @@ body{
 }
 
 .midsocial{
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 4vh;
 }
 
 .fb-mid{
@@ -51,7 +44,7 @@ body{
 }
 
 .form input{
-    margin: 5px;
+    margin: 0.5vw;
 }
 
 .form{
@@ -59,10 +52,9 @@ body{
     color: #CBE4DE;
     background-image: linear-gradient(to bottom left,var(--light),var(--light2));
     margin: auto;
-    margin-top: 10px;
+    margin-top: 2vh;
     width: 50vw;
     border-radius: 20px;
-    /* border: 1px solid black; */
     padding-top: 5px;
     text-align:center;
 }
@@ -75,14 +67,12 @@ body{
     padding: 8px;
     background-color: var(--dark);
     color: #CBE4DE;
-    /* opacity: 0.8; */
 }
 
 .con{
     height: 35vh;
     background-image: linear-gradient(to bottom right,var(--light),var(--light2));
     border-radius: 20px;
-    /* border: #2C3333 solid 1px; */
     width: 60vw;
     margin: auto;
     margin-top: 20px;
