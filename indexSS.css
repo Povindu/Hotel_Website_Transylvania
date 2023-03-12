@@ -13,33 +13,24 @@ div{
     padding: 0%;
 }
 .top{
+    width: 100vw;
     background-image: linear-gradient(to top, rgba(255,255,255,0), var(--light2)) !important;
 }
 .nav-li a{
     color: rgb(255, 255, 255) !important;
 }
 
-.mid1{
-    position: relative;
-    text-align: center;
-}
 .topimg{
     /* transform: scale(1.2); */
     filter: blur(3px);
     -webkit-filter: blur(3px);
     /* opacity: 0.8; */
     width: 100vw;
-    height: 130vh;
+    height: 100vh;
     /* transform: translateY(-600px); */
     /* opacity: 0.8; */
 }
 
-.midimg2{
-    width: 100vw;
-    margin: 0%;
-    transform: translateY(-600px);
-    z-index: -2;    
-}
 
 
 .top-h1{
@@ -51,7 +42,7 @@ div{
     z-index: 2;
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 40vh;
     left: 50%;
     transform: translate(-50%, -50%);
     /* top: -250px;  */
@@ -84,7 +75,7 @@ div{
     /* max-width: 800px; */
     position: absolute;
     transform: translate(-50%,-50%);
-    top: 45vh;
+    top: vh;
     left: 50vw;
     overflow: hidden;
     /* border:cadetblue 5px solid; */
@@ -99,17 +90,33 @@ div{
     animation: slide 16s infinite;
 }
 
-.midimg{
+.conimg{
     width: 60vw;
     height: 120vh;
 }
 
+.mid2{
+    background-image: url(homemid5.jpg);
+    height: 100vh;
+    width: 100vw;
+}
+
 .midtext{
+    border-radius: 20px;
+    background-image: linear-gradient(to top left,rgba(255,255,255,0), rgb(174, 0, 255),rgba(255,255,255,0)) !important;
     position: relative;
-    transform: translateY(2000px);
-    border:2px solid black;
-    z-index: 10;
-    font-size: larger;
+    top: 50vh;
+    text-align: center;
+    color: aliceblue;
+    width:60vw;
+    margin: auto;
+    /* text-align: justify; */
+    /* text-justify:newspaper; */
+    
+    text-shadow: rgb(0, 0, 0) 2px 2px 5px;
+    color: #ffffff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2vw ;
 }
 @keyframes slide{
     0%{
