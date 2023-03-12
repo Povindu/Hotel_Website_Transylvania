@@ -66,7 +66,7 @@ div{
 
 .conimg{
     width: 60vw;
-    height: 120vh;
+    height: 100vh;
 }
 
 .mid2{
@@ -77,6 +77,9 @@ div{
     width: 100vw;
 }
 
+.mid3 h1{
+    font-size: 3vw ;
+}
 .mid3{
     background-image: url(homemid4.jpg);
     background-repeat: no-repeat;
