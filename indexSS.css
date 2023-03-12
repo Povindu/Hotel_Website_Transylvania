@@ -97,24 +97,69 @@ div{
 
 .mid2{
     background-image: url(homemid5.jpg);
+    background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
 }
 
+.mid3{
+    background-image: url(homemid3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 100vw;
+}
+
+.mid3 div:nth-child(1){
+    background-image: url(r1.jpg);
+    background-size:cover;
+}
+
+.mid3 div:nth-child(2){
+    background-image: url(r2.jpg);
+    background-size: cover;
+}
+
+.mid3 div:nth-child(3){
+    background-image: url(r3.jpg);
+    background-size: cover;
+}
+
+.mid3 div{
+    margin-top: 5vh;
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.678) 2px 2px 5px;
+    font-size: 3vh;
+    text-align: center;
+    padding-top: 20vh;
+    height: 50vh;
+    float: left;
+    width: 25vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.555) 5px 5px 10px;
+}
+
+.mid3 div:hover{
+    transform: scale(1.05);
+}
+
 .midtext{
     border-radius: 20px;
-    background-image: linear-gradient(to top left,rgba(255,255,255,0), rgb(174, 0, 255),rgba(255,255,255,0)) !important;
+    background-image: linear-gradient(to top left,rgba(0, 98, 255, 0.064), rgba(180, 220, 255, 0.837),rgba(0, 89, 255, 0.119)) !important;
     position: relative;
     top: 50vh;
     text-align: center;
-    color: aliceblue;
-    width:60vw;
+    color: rgb(255, 255, 255);
+    width:75vw;
+    padding:3vw;
     margin: auto;
     /* text-align: justify; */
     /* text-justify:newspaper; */
     
-    text-shadow: rgb(0, 0, 0) 2px 2px 5px;
-    color: #ffffff;
+    text-shadow: rgba(55, 55, 55, 0.319) 2px 2px 2px;
+    /* color: #ffffff; */
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 2vw ;
 }
